@@ -14,5 +14,3 @@ tree_model = DecisionTreeClassifier(
     max_depth=6, criterion="entropy", random_state=23
 )
 tree_model.fit(X_train, y_train)
-
-joblib.dump(tree_model, "saved_models/tree.pkl")

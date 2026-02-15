@@ -11,7 +11,7 @@ The Breast Cancer Wisconsin Diagnostic dataset contains 569 patient records with
 
 **Model Comparison Table**
 | Model |	Accuracy |	AUC |	Precision	| Recall |	F1 |	MCC |
-| --- | --- | --- | --- | ----|
+| --- | --- | --- | --- | --- | --- | --- |
 | Logistic Regression |	0.98 |	0.99 |	0.98 |	0.99 |	0.99 |	0.96 |
 | Decision Tree |	0.92	| 0.91 |	0.93 |	0.91	| 0.92 |	0.84 |
 | kNN |	0.95 |	0.97 |	0.96 |	0.95 |	0.95 |	0.90 |

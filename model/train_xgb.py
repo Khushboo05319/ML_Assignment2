@@ -18,5 +18,3 @@ xgb_model = xgb.XGBClassifier(
 )
 
 xgb_model.fit(X_tr, y_tr)
-
-joblib.dump(xgb_model, "saved_models/xgb.pkl")

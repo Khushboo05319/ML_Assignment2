@@ -14,5 +14,3 @@ X_tr, X_te, y_tr, y_te = train_test_split(X_scaled, y, test_size=0.25, random_st
 
 knn_clf = KNeighborsClassifier(n_neighbors=7, metric="minkowski")
 knn_clf.fit(X_tr, y_tr)
-
-joblib.dump((knn_clf, scaler_knn), "saved_models/knn.pkl")

@@ -18,5 +18,3 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 
 clf_lr = LogisticRegression(max_iter=2000)
 clf_lr.fit(X_tr, y_tr)
-
-joblib.dump((clf_lr, scaler_unit), "saved_models/logreg.pkl")

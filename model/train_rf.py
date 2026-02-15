@@ -14,5 +14,3 @@ rf_model = RandomForestClassifier(
     n_estimators=150, max_depth=8, random_state=42
 )
 rf_model.fit(X_tr, y_tr)
-
-joblib.dump(rf_model, "saved_models/rf.pkl")

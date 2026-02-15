@@ -18,10 +18,11 @@ Random Forest	0.97	0.99	0.97	0.98	0.98	0.94
 XGBoost	0.98	0.99	0.98	0.99	0.99	0.96
 
 **Observations**
-|Model|	Observation|
-|Logistic Regression|	Excellent baseline with strong generalization|
-|Decision Tree|	Easy to interpret but prone to overfitting|
-|kNN|	Performs well but sensitive to scaling|
-|Naive Bayes	|Fast and robust with independence assumption|
-|Random Forest|	Handles feature interactions effectively|
-|XGBoost|	Best overall performance with minimal bias|
+| Model | Observation |
+| --- | --- |
+| Logistic Regression |	Excellent baseline with strong generalization |
+| Decision Tree |	Easy to interpret but prone to overfitting |
+| kNN |	Performs well but sensitive to scaling |
+| Naive Bayes	|Fast and robust with independence assumption |
+| Random Forest |	Handles feature interactions effectively |
+| XGBoost |	Best overall performance with minimal bias |

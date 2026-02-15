@@ -12,5 +12,3 @@ X_tr, X_te, y_tr, y_te = train_test_split(
 
 nb_model = GaussianNB()
 nb_model.fit(X_tr, y_tr)
-
-joblib.dump(nb_model, "saved_models/nb.pkl")
